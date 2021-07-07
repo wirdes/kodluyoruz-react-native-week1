@@ -1,6 +1,6 @@
 # İstanbul React-Native Bootcamp Hafta1 Ödev
 
-Bu projede fake rest apidan gelen bir ürün json dosyasını asenkron olarak çekip listeleyen bir uygulama yaptım.
+Bu projede gelen ürünleri listeleyen bir uygulama yaptım.
 <p align="center">
   <img src="screenshot.png" alt="Recipe Card"/>
 </p>
@@ -12,6 +12,5 @@ Bu projede fake rest apidan gelen bir ürün json dosyasını asenkron olarak ç
 
 ### Proje Hakkında
 
-***
+FlatList componetini kullanarak kendi custom componetimi ekranda rest api'dan gelen bilgiler çercevesinde listeledim. StyleSheet kullanarak da still ayarlamalarını yaptım.
 
-### Yapılacaklar
