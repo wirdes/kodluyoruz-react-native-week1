@@ -2,7 +2,7 @@
 
 Bu projede gelen ürünleri listeleyen bir uygulama yaptım.
 <p align="center">
-  <img src="screenshot.png" alt="Recipe Card"/>
+  <img src="app.png" alt="Recipe Card"/>
 </p>
 
 ### Proje Nasıl Çalıştırılır
