@@ -5,6 +5,7 @@ export default StyleSheet.create({
     flex: 1,
   },
   productText: {
+    textAlign: 'center',
     fontSize: 55,
     fontWeight: 'bold',
   },

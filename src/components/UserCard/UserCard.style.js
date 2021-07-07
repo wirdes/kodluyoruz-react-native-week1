@@ -2,7 +2,7 @@ import {StyleSheet} from 'react-native';
 
 export default StyleSheet.create({
   container: {
-    backgroundColor: '#eceff1',
+    backgroundColor: '#eceff9',
     margin: 5,
     padding: 10,
     borderRadius: 5,
@@ -20,21 +20,23 @@ export default StyleSheet.create({
     flexDirection: 'row',
   },
   product_image: {
+    marginTop: 10,
     borderRadius: 50,
-    width: 80,
-    height: 80,
+    width: 100,
+    height: 100,
   },
   price_container: {
     flex: 1,
     alignItems: 'flex-end',
-    color: 'red',
+    color: 'green',
   },
   price_text: {
-    color: 'darkred',
+    marginTop: 10,
+    color: 'green',
     fontWeight: 'bold',
-    fontSize: 25,
+    fontSize: 20,
   },
   description_text: {
-    fontSize: 20,
+    fontSize: 15,
   },
 });

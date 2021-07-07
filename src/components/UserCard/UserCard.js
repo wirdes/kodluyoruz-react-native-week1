@@ -4,8 +4,6 @@ import {View, Text, Image} from 'react-native';
 import styles from './UserCard.style';
 
 const UserCard = ({title, description, image, price}) => {
-
-
   return (
     <View style={styles.container}>
       <View style={styles.product_container}>
@@ -21,7 +19,7 @@ const UserCard = ({title, description, image, price}) => {
           {title.length < 50 ? `${title}` : `${title.substring(0, 32)}...`}
         </Text>
         <Text style={styles.description_text} numberOfLines={2}>
-          {description}
+          {'  ' + description}
         </Text>
         <Text style={styles.price_text}>${price}</Text>
       </View>
