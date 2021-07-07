@@ -16,7 +16,7 @@ function App() {
 
   return (
     <SafeAreaView style={style.safeAreaView}>
-      <Text style={style.productText}>Product</Text>
+      <Text style={style.productText}>Product</Text> 
       <FlatList
         data={productList}
         renderItem={({item}) => {
