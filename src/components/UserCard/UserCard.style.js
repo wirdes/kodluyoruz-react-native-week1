@@ -8,7 +8,7 @@ export default StyleSheet.create({
     borderRadius: 5,
     borderTopLeftRadius: 55,
     borderBottomLeftRadius: 55,
-    borderWidth: 1,
+    borderWidth: 10,
     borderColor: 'gray',
     flexDirection: 'row',
   },
