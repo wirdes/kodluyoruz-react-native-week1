@@ -4,7 +4,7 @@ import UserCard from './components/UserCard/UserCard';
 import axios from 'axios';
 import style from './App.style';
 
-function App() {
+const App = () => {
   const [productList, setProductList] = useState([]);
   async function fetchData() {
     const {data} = await axios.get('https://fakestoreapi.com/products');
